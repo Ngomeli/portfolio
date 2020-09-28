@@ -1,10 +1,33 @@
+body {
+    background-color: #e8e8e8;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: gray;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1 {
+    color: #726a95;
+}
+
+h3 {
+    color: #89beb3;
+}
+
+img {
+    cursor: pointer;
+}
+
 .social {
     text-align: center;
 }
 
 .form {
     text-align: center;
-    color: steelblue;
+    color: #89beb3;
     width: 320px;
     margin: 20px auto;
 }
@@ -23,7 +46,7 @@ input[type="text"] {
     margin-top: 25px;
     margin-bottom: 25px;
     width: 300px;
-    border: 2px solid steelblue;
+    border: 2px solid #89beb3;
     border-radius: 50px;
 }
 
@@ -31,7 +54,7 @@ input[type="email"] {
     display: block;
     margin-bottom: 25px;
     width: 300px;
-    border: 2px solid steelblue;
+    border: 2px solid #89beb3;
     border-radius: 50px;
 }
 
@@ -39,26 +62,26 @@ input[type="submit"] {
     display: block;
     margin-bottom: 25px;
     width: 100px;
-    border: 2px solid steelblue;
+    border: 2px solid #89beb3;
     text-align: center;
     cursor: pointer;
     border-radius: 50px;
 }
 
 .submit:hover {
-    background-color: steelblue;
+    background-color: #89beb3;
     transition: 1s ease;
 }
 
 .submit:focus {
-    background-color: lavenderblush;
+    background-color: #89beb3;
 }
 
 textarea {
     display: block;
     margin-bottom: 25px;
     width: 300px;
-    border: 2px solid steelblue;
+    border: 2px solid #89beb3;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
