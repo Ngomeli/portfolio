@@ -1,0 +1,65 @@
+.social {
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+    color: steelblue;
+    width: 320px;
+    margin: 20px auto;
+}
+
+.form p {
+    font-size: 1rem;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+input[type="text"] {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 300px;
+    border: 2px solid steelblue;
+    border-radius: 50px;
+}
+
+input[type="email"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 300px;
+    border: 2px solid steelblue;
+    border-radius: 50px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100px;
+    border: 2px solid steelblue;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.submit:hover {
+    background-color: steelblue;
+    transition: 1s ease;
+}
+
+.submit:focus {
+    background-color: lavenderblush;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    width: 300px;
+    border: 2px solid steelblue;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}

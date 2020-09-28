@@ -9,6 +9,7 @@
 
 
     ">
+    <link rel="stylesheet" href="main.css">
     <title>Portfolio</title>
 </head>
 
@@ -21,10 +22,15 @@
     <hr>
     <h3>Programming Langauages</h3>
     <ul>
-        <li>C and C++</li>
-        <li>Java</li>
         <li>JavaScript</li>
     </ul>
+    <h3>Projects</h3>
+    <p>Here are some of the projects have recently worked on:
+        <img src="images/todoList.png" width="250" height="250" alt="Todo list">
+        <a href="https://ngomeli.github.io/todo/" target="_blank">Todo list</a>
+        <img src="images/colorGame.png" width="250" height="250" alt="Color game">
+        <a href="https://ngomeli.github.io/colorGame/" target="_blank">Color Game</a>
+    </p>
     <h3>Goals and Dreams</h3>
     <p>My short term goals:
         <ul>
@@ -43,10 +49,20 @@
             <li>To always understand user problems and find a way to meet those needs by creating user friendly systems.</li>
         </ul>
     </p>
-    <p>
+    <div class="form" id="contact">
+        <form method="POST" name="contact_form" action="mailto:joshuakibuba181212@daystar.ac.ke">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea name="comment" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" name="submit" class="submit">
+        </form>
+    </div>
+    <p class="social">
         <a href="https://www.instagram.com/joshuangomeli/" target="_blank"><i class="instagram icon"></i></a><a href="https://twitter.com/JoshuaNgomeli" target="_blank"><i class="twitter icon"></i></a>
         <a href="https://www.facebook.com/joshua.ngomeli" target="_blank"><i class="facebook icon"></i></a>
+        <a href="https://www.facebook.com/joshua.ngomeli" target="_blank"><i class="github icon"></i></a>
     </p>
+    <script src="main.js"></script>
 </body>
 
 </html>
