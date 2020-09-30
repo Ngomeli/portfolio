@@ -1,5 +1,8 @@
+/**************************TAG SELECTOR*******************************/
+
 body {
     background-color: #e8e8e8;
+    margin: 0;
 }
 
 hr {
@@ -11,6 +14,7 @@ hr {
 
 h1 {
     color: #726a95;
+    margin-top: 0;
 }
 
 h3 {
@@ -19,6 +23,21 @@ h3 {
 
 img {
     cursor: pointer;
+}
+
+
+/******************************CLASS SELECTOR********************************/
+
+.joshua {
+    background-color: #e4f9f5;
+}
+
+.intro {
+    background-color: #e4e3e3;
+}
+
+.skills {
+    background-color: #e8e8e8;
 }
 
 .social {
