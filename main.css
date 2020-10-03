@@ -41,16 +41,27 @@ img {
 .intro {
     background-color: #e4e3e3;
     margin: 50px auto;
+    line-height: 5.5rem;
 }
 
 .skills {
     background-color: #e8e8e8;
-    margin: 0 auto 0 auto;
+    margin: 50px auto;
     width: 20%;
 }
 
+.project1 {
+    margin: 100px auto;
+    width: 50%;
+}
+
+.project2 {
+    margin: 100px auto;
+    width: 50%;
+}
+
 .dreams {
-    margin: 0 auto 0 auto;
+    margin: 50px auto;
     width: 40%;
 }
 
