@@ -40,7 +40,7 @@ img {
 
 .intro {
     background-color: #e4e3e3;
-    /* margin: 50px auto; */
+    margin: 50px auto;
 }
 
 .skills {
@@ -52,6 +52,13 @@ img {
 .dreams {
     margin: 0 auto 0 auto;
     width: 40%;
+}
+
+.goals {
+    font: 1em sans-serif;
+    font-size: large;
+    color: #11999E;
+    font-family: 'Lobster', cursive;
 }
 
 .social {
