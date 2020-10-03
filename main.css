@@ -41,7 +41,10 @@ img {
 .intro {
     background-color: #e4e3e3;
     margin: 50px auto;
-    line-height: 5.5rem;
+}
+
+.introText {
+    line-height: 2;
 }
 
 .skills {
@@ -53,11 +56,34 @@ img {
 .project1 {
     margin: 100px auto;
     width: 50%;
+    text-align: left;
+    line-height: 2;
 }
 
 .project2 {
     margin: 100px auto;
     width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.projectText1 {
+    line-height: 2;
+}
+
+.projectText2 {
+    line-height: 2;
+}
+
+.todoList {
+    float: left;
+    margin-right: 30px;
+    clear: left;
+}
+
+.rgbGame {
+    float: left;
+    margin-right: 30px;
 }
 
 .dreams {
@@ -70,6 +96,10 @@ img {
     font-size: large;
     color: #11999E;
     font-family: 'Lobster', cursive;
+}
+
+.goalsText {
+    line-height: 2;
 }
 
 .social {
