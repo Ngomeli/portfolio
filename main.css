@@ -54,6 +54,13 @@ img {
     width: 40%;
 }
 
+.goals {
+    font: 1em sans-serif;
+    font-size: large;
+    color: #11999E;
+    font-family: 'Lobster', cursive;
+}
+
 .social {
     text-align: center;
 }
