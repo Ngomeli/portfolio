@@ -63,17 +63,13 @@ img {
     width: 20%;
 }
 
-.project1 {
-    margin: 100px auto;
-    width: 50%;
-    text-align: left;
-    line-height: 2;
+.projects {
+    padding: 7% 15%;
 }
 
-.project2 {
-    margin: 100px auto;
-    width: 50%;
-    text-align: left;
+.project-box {
+    text-align: center;
+    padding: 5%;
 }
 
 .todoList {
@@ -83,6 +79,11 @@ img {
 }
 
 .rgbGame {
+    float: left;
+    margin-right: 30px;
+}
+
+.distributor {
     float: left;
     margin-right: 30px;
 }
