@@ -49,7 +49,7 @@ img {
 
 .intro {
     background-color: #e4e3e3;
-    margin: 50px auto;
+    margin: 5px auto;
 }
 
 .introText {
@@ -70,22 +70,6 @@ img {
 .project-box {
     text-align: center;
     padding: 5%;
-}
-
-.todoList {
-    float: left;
-    margin-right: 30px;
-    clear: left;
-}
-
-.rgbGame {
-    float: left;
-    margin-right: 30px;
-}
-
-.distributor {
-    float: left;
-    margin-right: 30px;
 }
 
 .dreams {
@@ -173,4 +157,12 @@ textarea {
 .footer {
     background-color: rgb(190, 190, 223);
     padding: 20px 0 20px;
+}
+
+
+/*******************************ID SELECTOR*********************************/
+
+#title {
+    background-color: #89beb3;
+    color: gray;
 }
