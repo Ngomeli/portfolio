@@ -49,7 +49,7 @@ img {
 
 .intro {
     background-color: #e4e3e3;
-    margin: 50px auto;
+    margin: 5px auto;
 }
 
 .introText {
@@ -63,28 +63,13 @@ img {
     width: 20%;
 }
 
-.project1 {
-    margin: 100px auto;
-    width: 50%;
-    text-align: left;
-    line-height: 2;
+.projects {
+    padding: 7% 15%;
 }
 
-.project2 {
-    margin: 100px auto;
-    width: 50%;
-    text-align: left;
-}
-
-.todoList {
-    float: left;
-    margin-right: 30px;
-    clear: left;
-}
-
-.rgbGame {
-    float: left;
-    margin-right: 30px;
+.project-box {
+    text-align: center;
+    padding: 5%;
 }
 
 .dreams {
@@ -172,4 +157,12 @@ textarea {
 .footer {
     background-color: rgb(190, 190, 223);
     padding: 20px 0 20px;
+}
+
+
+/*******************************ID SELECTOR*********************************/
+
+#title {
+    background-color: #89beb3;
+    color: gray;
 }
