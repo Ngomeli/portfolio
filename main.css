@@ -166,3 +166,9 @@ textarea {
     background-color: #89beb3;
     color: gray;
 }
+
+.nav-item {
+    display: inline-block;
+    float: right;
+    padding: 5px;
+}
