@@ -3,7 +3,7 @@
 body {
     background-color: #e8e8e8;
     margin: 0;
-    text-align: center;
+    /* text-align: center; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #000;
 }
@@ -18,10 +18,10 @@ hr {
 
 h1 {
     color: #66BFBF;
-    width: 10%;
-    margin: 0 auto 0 auto;
+    /* width: 10%; */
+    /* margin: 0 auto 0 auto; */
     font-family: 'Lobster', cursive;
-    padding-bottom: 10px;
+    /* padding-bottom: 5px; */
 }
 
 h2 {
@@ -49,11 +49,12 @@ img {
 
 .intro {
     background-color: #e4e3e3;
-    margin: 5px auto;
+    margin: 5px;
+    /* display: inline-block; */
 }
 
 .introText {
-    width: 30%;
+    /* width: 30%; */
     margin: auto;
 }
 
