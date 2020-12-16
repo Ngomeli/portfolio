@@ -50,7 +50,7 @@ img {
 .intro {
     background-color: #e4e3e3;
     margin: 5px;
-    /* display: inline-block; */
+    display: inline-block;
 }
 
 .introText {
@@ -170,6 +170,12 @@ textarea {
 
 .nav-item {
     display: inline-block;
-    float: right;
-    padding: 5px;
+    padding: 10px;
+}
+
+nav {
+    position: fixed;
+    right: 20px;
+    background-color: #89beb3;
+    border-radius: 5%;
 }
