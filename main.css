@@ -172,11 +172,19 @@ textarea {
 .nav-item {
     display: inline-block;
     padding: 10px;
+    border: 2px solid #89beb3;
+    border-radius: 50px;
+    text-align: center;
 }
 
 nav {
     position: fixed;
     right: 20px;
+    /* background-color: #89beb3;
+    border-radius: 5%; */
+}
+
+.nav-item:hover {
     background-color: #89beb3;
-    border-radius: 5%;
+    transition: 2s ease;
 }
