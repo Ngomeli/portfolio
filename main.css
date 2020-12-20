@@ -180,11 +180,9 @@ textarea {
 nav {
     position: fixed;
     right: 20px;
-    /* background-color: #89beb3;
-    border-radius: 5%; */
 }
 
 .nav-item:hover {
-    background-color: #89beb3;
-    transition: 2s ease;
+    border-color: #120078;
+    transform: translateY(-0.25em);
 }
