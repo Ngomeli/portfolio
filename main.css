@@ -91,17 +91,6 @@ img {
     color: #120078;
 }
 
-
-/* caption {
-    width: 20%;
-    height: 100%;
-}
-
-.projectImages {
-    width: 20%;
-    height: 100%;
-} */
-
 @media screen and (max-width:768px) {
     .projects {
         flex-direction: row;
