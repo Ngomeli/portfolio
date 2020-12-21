@@ -63,25 +63,23 @@ img {
     margin: 20px;
     display: flex;
     justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-
-
-/* .project-box {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-} */
 
 .project-box1 {
     flex: 1;
+    margin: 20px;
 }
 
 .project-box2 {
     flex: 1;
+    margin: 20px;
 }
 
 .project-box3 {
     flex: 1;
+    margin: 20px;
 }
 
 .link:hover {
@@ -90,6 +88,12 @@ img {
 
 caption {
     width: 20%;
+}
+
+@media screen and (max-width:768px) {
+    .projects {
+        flex-direction: row;
+    }
 }
 
 .dreams {
