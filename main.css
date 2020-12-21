@@ -50,17 +50,46 @@ img {
     margin: 20px;
 }
 
+.align {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .PML {
-    width: 20%;
-    margin: 10px;
+    width: 15%;
 }
 
 .projects {
     margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.project-box {
-    padding: 5%;
+
+/* .project-box {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+} */
+
+.project-box1 {
+    flex: 1;
+}
+
+.project-box2 {
+    flex: 1;
+}
+
+.project-box3 {
+    flex: 1;
+}
+
+.link:hover {
+    color: #120078;
+}
+
+caption {
+    width: 20%;
 }
 
 .dreams {
