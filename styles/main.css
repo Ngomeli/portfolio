@@ -199,6 +199,8 @@
             /*it hides the side nav on the web page (right:-250x)*/
             background-color: #89beb3;
             z-index: 2;
+            transition: 0.5s;
+            /*it takes 0.5seconds to load the navbar*/
         }
         
         nav ul li {
