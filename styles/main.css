@@ -190,20 +190,32 @@
             color: gray;
         }
         
-        .nav-item {
-            display: inline-block;
-            padding: 10px;
-            border: 2px solid #89beb3;
-            border-radius: 50px;
-            text-align: center;
-        }
-        
-        nav {
+        #sideNav {
+            width: 250px;
+            height: 100vh;
             position: fixed;
-            right: 20px;
+            top: 0;
+            right: -250px;
+            /*it hides the side nav on the web page (right:-250x)*/
+            background-color: #89beb3;
+            z-index: 2;
         }
         
-        .nav-item:hover {
-            border-color: #120078;
-            transform: translateY(-0.25em);
+        nav ul li {
+            margin: 50px 20px;
+            list-style: none;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        #menuBtn {
+            width: 50px;
+            position: fixed;
+            right: 65px;
+            top: 35px;
+            z-index: 2;
+            cursor: pointer;
         }
