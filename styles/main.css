@@ -1,5 +1,9 @@
         /**************************TAG SELECTOR*******************************/
         
+        * {
+            scroll-behavior: smooth;
+        }
+        
         body {
             background-color: #e4e3e3;
             margin: 0;
