@@ -83,6 +83,10 @@ nav {
     padding-bottom: 50px;
 }
 
+.intro {
+    line-height: 2rem;
+}
+
 .profilePic {
     height: 300px;
 }
