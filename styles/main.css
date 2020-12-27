@@ -154,3 +154,41 @@ nav {
     margin-bottom: 15px;
     font-weight: 400;
 }
+
+
+/*-------------------------Contact------------------*/
+
+.contact {
+    padding-top: 50px;
+    background-image: url(../images/footer.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.contact .row {
+    padding-top: 30px;
+    font-size: 22px;
+}
+
+.contact .col-md-6 .fa {
+    padding: 10px;
+    font-size: 40px;
+}
+
+.social {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: large;
+    margin: 5px;
+    padding: 5px;
+}
+
+.social i {
+    margin: 5px;
+}
