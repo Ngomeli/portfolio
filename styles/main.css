@@ -43,8 +43,11 @@ header {
     color: white;
 }
 
+
+/*------------------------------------Nav Section---------------------------*/
+
 .navbar {
-    background-color: rgba(0, 0, 0, 0.158);
+    background-color: rgba(14, 13, 13, 0.74);
 }
 
 nav .fa-bars {
@@ -66,13 +69,15 @@ nav .fa-bars {
     color: #ffff !important;
 }
 
-
-/*------------------------------------Nav Section---------------------------*/
-
 nav {
     top: 0;
-    position: sticky;
+    /* position: sticky; */
     z-index: 2;
+}
+
+.nav-item:hover,
+:focus {
+    text-decoration: underline;
 }
 
 
@@ -104,4 +109,48 @@ nav {
 .progress-bar {
     border-radius: 16px;
     background-color: #000 !important;
+    cursor: pointer;
+}
+
+.skills h3 {
+    margin-bottom: 20px;
+}
+
+
+/*---------------------------Projects------------------------------*/
+
+#projects {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#projects h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.projectsRow {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projectBox {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.projectBox img {
+    width: 100px;
+    /*makes the image smaller*/
+}
+
+.projectBox h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 400;
 }
