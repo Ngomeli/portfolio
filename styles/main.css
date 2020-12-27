@@ -28,225 +28,47 @@ header {
     position: absolute;
 }
 
+.user-box img {
+    width: 250px;
+    border-radius: 50%;
+}
 
-/* h1 {
-            color: #66BFBF;
-            font-family: 'Lobster', cursive;
-        }
-        
-        h2 {
-            color: #66BFBF;
-            font-family: 'Lobster', cursive;
-            padding-bottom: 10px;
-        }
-        
-        h3 {
-            color: #11999E;
-            font-family: 'Lobster', cursive;
-            padding-bottom: 10px;
-        }
-        
-        p {
-            line-height: 2;
-        }
-        
-        img {
-            cursor: pointer;
-        }
-        /******************************CLASS SELECTOR********************************/
+.user-box h1 {
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.user-box p {
+    color: white;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.158);
+}
+
+nav .fa-bars {
+    font-size: 35px;
+    color: #ffff;
+}
 
 
-/* .intro {
-            background-color: #e4e3e3;
-            margin: 20px;
-            display: inline-block;
-        }
-        
-        .introText {
-            margin: auto;
-        }
-        
-        .Ngomeli {
-            width: 20%;
-            height: 100%;
-        }
-        
-        .skills {
-            margin: 20px;
-        }
-        
-        .align {
-            display: flex;
-            justify-content: space-evenly;
-        }
-        
-        .PML {
-            width: 15%;
-        }
-        
-        .projects {
-            padding-top: 2%;
-            margin: 20px;
-            display: flex;
-            justify-content: space-evenly;
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
-        
-        .project-box1 {
-            flex: 1;
-            margin: 20px;
-        }
-        
-        .project-box2 {
-            flex: 1;
-            margin: 20px;
-        }
-        
-        .project-box3 {
-            flex: 1;
-            margin: 20px;
-        }
-        
-        .link:hover {
-            color: #120078;
-        }
-        
-        @media(max-width:768px) {
-            .projects {
-                flex-direction: row;
-            }
-        }
-        
-        .dreams {
-            margin: 20px;
-            width: 40%;
-        }
-        
-        .goals {
-            font: 1em sans-serif;
-            font-size: large;
-            color: #11999E;
-            font-family: 'Lobster', cursive;
-        }
-        
-        .goalsText {
-            line-height: 2;
-        }
-        
-        .social {
-            text-align: center;
-        }
-        
-        .form {
-            text-align: center;
-            color: #89beb3;
-            width: 320px;
-            margin: 20px auto;
-        }
-        
-        .form p {
-            font-size: 1rem;
-        }
-        
-        input {
-            padding: 10px;
-            font-size: 1rem;
-        }
-        
-        input[type="text"] {
-            display: block;
-            margin-top: 25px;
-            margin-bottom: 25px;
-            width: 300px;
-            border: 2px solid #89beb3;
-            border-radius: 50px;
-        }
-        
-        input[type="email"] {
-            display: block;
-            margin-bottom: 25px;
-            width: 300px;
-            border: 2px solid #89beb3;
-            border-radius: 50px;
-        }
-        
-        input[type="submit"] {
-            display: block;
-            margin-bottom: 25px;
-            width: 100px;
-            border: 2px solid #89beb3;
-            text-align: center;
-            cursor: pointer;
-            border-radius: 50px;
-        }
-        
-        .submit:hover {
-            background-color: #89beb3;
-            transition: 1s ease;
-        }
-        
-        .submit:focus {
-            background-color: #89beb3;
-        }
-        
-        textarea {
-            display: block;
-            margin-bottom: 25px;
-            width: 300px;
-            border: 2px solid #89beb3;
-            border-top-right-radius: 30px;
-            border-bottom-left-radius: 30px;
-            border-bottom-right-radius: 30px;
-        }
-        
-        .footer {
-            background-color: rgb(190, 190, 223);
-            padding: 20px 0 20px;
-            text-align: center;
-        }
-        /*******************************ID SELECTOR*********************************/
+/*------------------------------------Nav Section---------------------------*/
+
+nav {
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
 
 
-/* #title {
-            background-color: #89beb3;
-            color: gray;
-        }
-        
-        #sideNav {
-            width: 250px;
-            height: 100vh;
-            position: fixed;
-            top: 0;
-            right: -250px; 
-            /*it hides the side nav on the web page (right:-250x)*/
+/*-----------------------------------About Section--------------------------*/
 
+.about {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
 
-/* background-color: #89beb3;
-            z-index: 2;
-            transition: 0.5s; */
-
-
-/*it takes 0.5seconds to load the navbar*/
-
-
-/* }
-        
-        nav ul li {
-            margin: 50px 20px;
-            list-style: none;
-        }
-        
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-        }
-        
-        #menuBtn {
-            width: 50px;
-            position: fixed;
-            right: 65px;
-            top: 35px;
-            z-index: 2;
-            cursor: pointer;
-        } */
+.profilePic {
+    height: 300px;
+}
