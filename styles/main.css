@@ -52,6 +52,20 @@ nav .fa-bars {
     color: #ffff;
 }
 
+.navbar-toggler {
+    outline: none !important;
+    /*this makes the navbar on mobile size not to have an outline it will be only the three bars*/
+}
+
+.navbar-nav {
+    float: right;
+    text-align: right;
+}
+
+.nav-link {
+    color: #ffff !important;
+}
+
 
 /*------------------------------------Nav Section---------------------------*/
 
@@ -71,4 +85,19 @@ nav {
 
 .profilePic {
     height: 300px;
+}
+
+.skills {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.progress {
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    border-radius: 16px;
+    background-color: #000 !important;
 }
