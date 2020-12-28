@@ -198,7 +198,7 @@ nav {
     margin: 5px;
 }
 
-@media(max-width:770px) {
+@media(max-width:768px) {
     .container {
         margin-right: 50px;
         margin-left: 50px;
