@@ -192,23 +192,3 @@ nav {
 .social i {
     margin: 5px;
 }
-
-@media(max-width:770px) {
-    .container {
-        text-align: center;
-    }
-    .user-box img {
-        width: 150px;
-    }
-    h1 {
-        font-size: 20px;
-    }
-    nav .fa-bars {
-        width: 40px;
-        right: 50px;
-    }
-    .projectsRow {
-        flex-basis: 100%;
-        margin-bottom: 20px;
-    }
-}
