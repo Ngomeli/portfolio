@@ -21,6 +21,11 @@ header {
     background-attachment: fixed;
 }
 
+.container {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
 .user-box {
     top: 50%;
     left: 50%;
@@ -191,4 +196,15 @@ nav {
 
 .social i {
     margin: 5px;
+}
+
+@media(max-width:770px) {
+    .container {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .projectBox {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
 }
