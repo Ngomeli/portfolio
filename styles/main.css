@@ -207,4 +207,17 @@ nav {
         flex-basis: 100%;
         margin-bottom: 20px;
     }
+    .user-box img {
+        width: 100%;
+    }
+    .profilePic {
+        width: 100%;
+        height: 100%;
+    }
+    .projectBox {
+        flex-basis: 100%;
+    }
+    .projectsRow {
+        width: 70%;
+    }
 }
