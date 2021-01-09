@@ -72,7 +72,11 @@ nav .fa-bars {
 }
 
 .nav-link {
-    color: #ffff !important;
+    color: #ffff;
+}
+
+.nav-item {
+    transition: transform 0.5s;
 }
 
 nav {
@@ -83,7 +87,9 @@ nav {
 
 .nav-item:hover,
 :focus {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    color: aquamarine;
+    transform: translateY(-2px);
 }
 
 
